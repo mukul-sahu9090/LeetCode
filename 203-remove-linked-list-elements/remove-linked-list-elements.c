@@ -8,9 +8,7 @@
 struct ListNode* removeElements(struct ListNode* head, int val) {
     struct ListNode* ptr;
         ptr=head;
-        // ptr=(struct ListNode*)malloc(sizeof(struct ListNode));
         struct ListNode* q;
-        q=(struct ListNode*)malloc(sizeof(struct ListNode));
         int count=0;
         while(ptr!=NULL){
             if(ptr->next!=NULL){
