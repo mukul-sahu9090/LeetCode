@@ -20,9 +20,9 @@ public:
         ListNode*post;
         while(curr!=NULL && curr->next!=NULL){
             post=curr->next;
-            if(post==NULL){
-                return head;
-            }
+            // if(post==NULL){
+            //     return head;
+            // }
             if(prev!=NULL){
                 prev->next=post;
             }
